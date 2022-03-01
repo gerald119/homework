@@ -38,8 +38,7 @@ $(function(){
 <div>
         <ul class="carousel">
             
-            <li><img src="imgs/img03.png" alt="" width=800px height=400px;></li>
-            <li><img src="imgs/img03.png" alt="" width=800px height=400px;></li>
+         
             
             <li><img src="imgs/img03.png" alt="" width=800px height=400px;></li>
             <li><img src="imgs/img03.png" alt="" width=800px height=400px;></li>
