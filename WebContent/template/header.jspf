@@ -25,7 +25,7 @@
 		<%if(user.isResult()){ %>
 		<td bgcolor="#aaaaaa" width="100" align="center"><a href="<%=root %>/login/logout.jsp">[LOGOUT]</a></td>
 		<%}else{ %>
-		<td bgcolor="#aaaaaa" width="100" align="center"><a href="<%=root %>/login/">[LOGIN]</a></td>
+		<td bgcolor="#aaaaaa" width="100" align="center"><a href="<%=root %>/login/login.jsp">[LOGIN]</a></td>
 		<%} %>
 		<td bgcolor="#aaaaaa">&nbsp;</td>
 	</tr>
