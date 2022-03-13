@@ -1,9 +1,9 @@
-<%@ page contentType="text/html; charset=utf-8"%>
+<%@ page contentType="text/html; charset=UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
 <title>Validation</title>
-<meta charset="utf-8">
+<meta charset="UTF-8">
 <!-- 파비콘(해당 사이트를 나타내는 아이콘) 에러 시 -->
 <!-- <link rel="shortcut icon" href="data:image/x-icon" type="image/x-icon"> -->
 <style>
@@ -11,6 +11,7 @@ form {width:60%; margin:0 auto; padding:10px; text-align:center;}
 </style>
 </head>
 <body>
+	<%@ include file="../template/header.jspf" %>
 	<form name="loginForm" action="validation.jsp" method="post">
 	<fieldset>
 		<legend>로그인</legend>
@@ -40,5 +41,6 @@ form {width:60%; margin:0 auto; padding:10px; text-align:center;}
 		form.submit();
 	} 
 </script>
+<%@ include file="../template/footer.jspf" %>
 </body>
 </html>
