@@ -23,6 +23,7 @@ form {width:60%; margin:0 auto; padding:10px; text-align:center;}
  		<input type="button" value="전송" onclick="checkLogin()">
 	</fieldset>
 	</form>
+	<button onclick="location='join.jsp'">회원가입</button>
 
 <script>
 	 function checkLogin() {
